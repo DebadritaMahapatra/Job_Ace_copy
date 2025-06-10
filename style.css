@@ -1056,25 +1056,3 @@ footer .btn:hover {
         width: 100%;
     }
 }
-
-
-/* It is for chat-bot button        ~ Debadrita Mahapatra*/
-#chatbot-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    cursor: pointer;
-}
-
-#chatbot-button img {
-    width: 80px;  /* adjust as needed */
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.3s;
-}
-
-#chatbot-button img:hover {
-    transform: scale(1.1);
-}
